@@ -24,9 +24,9 @@ def users_list(request):
 
 
 @csrf_exempt
-def users(request, pk):
+def users(request, user_num):
 
-    obj = Users.objects.get(pk=pk)
+    obj = Users.objects.get(user_num=user_num)
 
     if request.method == 'GET':
         serializer = UsersSerializer(obj)
