@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/restframeserver" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Remote Python 3.6.9 (sftp://ubuntu@ec2-13-125-61-85.ap-northeast-2.compute.amazonaws.com:22/usr/bin/python3.6)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
